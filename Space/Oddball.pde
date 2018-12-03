@@ -5,7 +5,7 @@ public class Oddball extends Normal {
 
   
   }
-  @Override
+  
   void show() {
     pushMatrix();
     translate((float)x_pos, (float)y_pos);
@@ -13,7 +13,7 @@ public class Oddball extends Normal {
     rect(0, 0, 20, 20);
     popMatrix();
   }
-  @Override
+  
   void move() {
     if (x_pos > 800 || x_pos<-800)
       xdirection = xdirection*-1;

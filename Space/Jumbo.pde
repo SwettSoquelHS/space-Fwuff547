@@ -4,7 +4,7 @@ public class Jumbo extends Normal {
 
   
   }
-  @Override
+ 
   void show() {
     pushMatrix();
     translate((float)x_pos, (float)y_pos);
